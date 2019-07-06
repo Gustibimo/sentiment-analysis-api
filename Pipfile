@@ -7,6 +7,14 @@ verify_ssl = true
 
 [packages]
 flask-restful = "*"
+flask = "*"
+aniso8601 = "*"
+pytz = "*"
+six = "*"
+numpy = "*"
+sklearn = "*"
+matplotlib = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
