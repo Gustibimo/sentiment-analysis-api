@@ -12,7 +12,7 @@ Deploy sentiment analysis model as an API
 
 # Usage
 
-`curl -X GET http://127.0.0.1:5000/ -d query='Not able to open the app in my phone some trust issue is coming'`
+`curl -X GET http://127.0.0.1:5000/api/v1/predict/ -d query='Not able to open the app in my phone some trust issue is coming'`
 
 output:
 
